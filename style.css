@@ -1,0 +1,87 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  background: #ffffff;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 80px 20px;
+}
+
+header {
+  background: #ffffff;
+  border-bottom: 1px solid #e6e6e6;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #003366;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 42px;
+  color: #002147;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #003366;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.hero img {
+  width: 260px;
+  border-radius: 8px;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  background: #f4f7fb;
+  padding: 25px;
+  border-left: 4px solid #003366;
+}
+
+footer {
+  margin-top: 120px;
+  padding: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  border-top: 1px solid #eee;
+}
